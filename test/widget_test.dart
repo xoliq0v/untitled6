@@ -27,5 +27,6 @@ void main() {
       bloc.add(Increment());
       expectLater(bloc.stream, emits(99));
     });
+
   });
 }
